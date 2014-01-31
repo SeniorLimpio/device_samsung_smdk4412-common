@@ -932,6 +932,7 @@ int exynos_camera_params_apply(struct exynos_camera *exynos_camera, int force)
 		}
 
 		focus_mode = FOCUS_MODE_TOUCH;
+
 	}
 
 	// Zoom

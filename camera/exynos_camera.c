@@ -2138,6 +2138,7 @@ error:
 		exynos_camera->face_data->release(exynos_camera->face_data);
 		exynos_camera->face_data = NULL;
 	}
+
 	if (exynos_camera->capture_memory != NULL && exynos_camera->capture_memory->release != NULL) {
 		exynos_camera->capture_memory->release(exynos_camera->capture_memory);
 		exynos_camera->capture_memory = NULL;
